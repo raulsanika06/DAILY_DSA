@@ -1,0 +1,19 @@
+//https://takeuforward.org/hashing/hashing-maps-time-complexity-collisions-division-rule-of-hashing-strivers-a2z-dsa-course/
+
+import java.util.Arrays; 
+class StringHash {
+    public static void main(String[] args) {
+       
+       int[] a=new int[256];
+       String str="abggcsgghs";
+       char[] chr=str.toCharArray();
+       for(char c:chr)
+          a[c]++;
+          
+     
+      System.out.println(a['g']);
+      
+          
+       //System.out.println("\n"+Arrays.binarySearch(a,a[c-'a']));
+    }
+}
